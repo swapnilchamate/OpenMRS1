@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [openMRS_Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.qa.openmrs.extentreport.ExtentReporterNG"/>
+    <listener class-name="com.qa.openmrs.listeners.ITestlistener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.openmrs.tests.loginpagetest">
+        <methods>
+          <include name="validatetitle"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.qa.openmrs.tests.loginpagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [openMRS_Suite] -->
