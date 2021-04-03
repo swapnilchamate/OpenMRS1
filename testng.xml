@@ -2,19 +2,37 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="openMRS_Suite" thread-count="2" parallel="tests" verbose="3">
+<suite name="openMRS_Suite" thread-count="2" parallel="tests"
+	verbose="3">
 
 	<listeners>
-		<listener class-name="com.qa.openmrs.extentreport.ExtentReporterNG" />
+		<listener
+			class-name="com.qa.openmrs.extentreport.ExtentReporterNG" />
 		<listener class-name="com.qa.openmrs.listeners.ITestlistener" />
 	</listeners>
 
-	<test name="Test">
+<!-- 	<test name="LaginTest">
 		<classes>
-			<class name="com.qa.openmrs.tests.loginpagetest"/>
-			<!-- <class name="com.qa.openmrs.tests.registerpatienttest"/> -->
-			<!-- <class name="com.qa.openmrs.tests.homepagetest"/> -->
-			<!-- <class name="com.qa.openmrs.tests.patientrecordspgetest" /> -->
+			<class name="com.qa.openmrs.tests.loginpagetest" />
 		</classes>
-	</test> <!-- Test -->
+	</test>  -->
+
+	<test name="RegisterPatientTest">
+		<classes>
+			<class name="com.qa.openmrs.tests.registerpatienttest" />
+		</classes>
+	</test>
+
+	<!-- <test name="HomePageTest">
+		<classes>
+			<class name="com.qa.openmrs.tests.homepagetest" />
+		</classes>
+	</test>
+
+	<test name="RecordPageTest">
+		<classes>
+			<class name="com.qa.openmrs.tests.patientrecordspgetest" />
+		</classes>
+	</test> -->
+
 </suite> <!-- openMRS_Suite -->

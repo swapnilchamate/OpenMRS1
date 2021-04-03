@@ -1,48 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="2" total="4" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-07T14:40:58Z" name="openMRS_Suite" finished-at="2021-03-07T14:41:35Z" duration-ms="36877">
+  <suite started-at="2021-04-03T15:58:42Z" name="openMRS_Suite" finished-at="2021-04-03T16:00:28Z" duration-ms="105859">
     <groups>
     </groups>
-    <test started-at="2021-03-07T14:40:58Z" name="Test" finished-at="2021-03-07T14:41:35Z" duration-ms="36877">
-      <class name="com.qa.openmrs.tests.loginpagetest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:40:58Z" name="Setup" finished-at="2021-03-07T14:41:05Z" duration-ms="6538" status="PASS">
+    <test started-at="2021-04-03T15:58:42Z" name="RegisterPatientTest" finished-at="2021-04-03T16:00:28Z" duration-ms="105859">
+      <class name="com.qa.openmrs.tests.registerpatienttest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.registerpatienttest@fd07cbb]" started-at="2021-04-03T15:58:43Z" name="Setup" finished-at="2021-04-03T15:59:39Z" duration-ms="56072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="validatelogotest()[pri:-2, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:05Z" name="validatelogotest" finished-at="2021-03-07T14:41:05Z" duration-ms="43" status="PASS">
+        <test-method signature="registerpatient(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.openmrs.tests.registerpatienttest@fd07cbb]" started-at="2021-04-03T15:59:39Z" name="registerpatient" data-provider="registerpatientdata" finished-at="2021-04-03T15:59:40Z" duration-ms="1754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swap]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chamate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1992.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ahilya Nagar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Jaitala]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Nagpur]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[440036]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9422494120]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Sibling]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Shreyash]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatelogotest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:05Z" name="TearDown" finished-at="2021-03-07T14:41:06Z" duration-ms="918" status="PASS">
+        </test-method> <!-- registerpatient -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.registerpatienttest@fd07cbb]" started-at="2021-04-03T15:59:40Z" name="TearDown" finished-at="2021-04-03T15:59:41Z" duration-ms="855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:06Z" name="Setup" finished-at="2021-03-07T14:41:14Z" duration-ms="7994" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="validatetitle()[pri:-1, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:14Z" name="validatetitle" finished-at="2021-03-07T14:41:14Z" duration-ms="14" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.registerpatienttest@fd07cbb]" started-at="2021-04-03T15:59:41Z" name="Setup" finished-at="2021-04-03T16:00:28Z" duration-ms="46776" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[expected [Login1] but found [Login]]]>
+              <![CDATA[timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-B8KML2J', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63766}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\swapn\AppData\Local\Temp\scoped_dir19088_1925636889}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=89.0.4389.114, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f28c3b55eb7e562888211c671da8d775]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Login1] but found [Login]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.qa.openmrs.tests.loginpagetest.validatetitle(loginpagetest.java:37)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-B8KML2J', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63766}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\swapn\AppData\Local\Temp\scoped_dir19088_1925636889}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=89.0.4389.114, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f28c3b55eb7e562888211c671da8d775
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.qa.openmrs.pages.HomePage.registerpatient(HomePage.java:67)
+at com.qa.openmrs.tests.registerpatienttest.Setup(registerpatienttest.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -59,39 +167,85 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatetitle -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:14Z" name="TearDown" finished-at="2021-03-07T14:41:15Z" duration-ms="758" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:15Z" name="Setup" finished-at="2021-03-07T14:41:23Z" duration-ms="8573" status="PASS">
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="validatelinktest()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:23Z" name="validatelinktest" finished-at="2021-03-07T14:41:23Z" duration-ms="32" status="PASS">
+        <test-method signature="registerpatient(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.openmrs.tests.registerpatienttest@fd07cbb]" started-at="2021-04-03T16:00:28Z" name="registerpatient" data-provider="registerpatientdata" finished-at="2021-04-03T16:00:28Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-B8KML2J', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63766}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\swapn\AppData\Local\Temp\scoped_dir19088_1925636889}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=89.0.4389.114, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f28c3b55eb7e562888211c671da8d775]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-B8KML2J', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63766}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\swapn\AppData\Local\Temp\scoped_dir19088_1925636889}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=89.0.4389.114, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: f28c3b55eb7e562888211c671da8d775
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.qa.openmrs.pages.HomePage.registerpatient(HomePage.java:67)
+at com.qa.openmrs.tests.registerpatienttest.Setup(registerpatienttest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatelinktest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:23Z" name="TearDown" finished-at="2021-03-07T14:41:24Z" duration-ms="783" status="PASS">
+        </test-method> <!-- registerpatient -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.registerpatienttest@fd07cbb]" started-at="2021-04-03T16:00:28Z" name="TearDown" finished-at="2021-04-03T16:00:28Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:24Z" name="Setup" finished-at="2021-03-07T14:41:31Z" duration-ms="6575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="logintest()[pri:3, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:31Z" name="logintest" finished-at="2021-03-07T14:41:34Z" duration-ms="3522" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@7c1e2a9e]" started-at="2021-03-07T14:41:34Z" name="TearDown" finished-at="2021-03-07T14:41:35Z" duration-ms="766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.qa.openmrs.tests.loginpagetest -->
-    </test> <!-- Test -->
+      </class> <!-- com.qa.openmrs.tests.registerpatienttest -->
+    </test> <!-- RegisterPatientTest -->
   </suite> <!-- openMRS_Suite -->
 </testng-results>
