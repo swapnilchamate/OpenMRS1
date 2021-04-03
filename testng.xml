@@ -11,17 +11,17 @@
 		<listener class-name="com.qa.openmrs.listeners.ITestlistener" />
 	</listeners>
 
-<!-- 	<test name="LaginTest">
+	<test name="LoginTest">
 		<classes>
 			<class name="com.qa.openmrs.tests.loginpagetest" />
 		</classes>
-	</test>  -->
+	</test> 
 
-	<test name="RegisterPatientTest">
+<!-- 	<test name="RegisterPatientTest">
 		<classes>
 			<class name="com.qa.openmrs.tests.registerpatienttest" />
 		</classes>
-	</test>
+	</test> -->
 
 	<!-- <test name="HomePageTest">
 		<classes>
