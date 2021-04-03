@@ -34,7 +34,7 @@ public class loginpagetest extends TestBase{
 	@Test(priority=-1,enabled=true)
 	public void validatetitle(){
 		String act_title=loginpage.validatetitle();
-		Assert.assertEquals(act_title,"Login");
+		Assert.assertEquals(act_title,"Login1");
 	}
 	
 	@Test(priority=3,enabled=true)
